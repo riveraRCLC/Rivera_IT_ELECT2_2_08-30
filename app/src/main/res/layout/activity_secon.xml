@@ -1,26 +1,46 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#CAD5BB"
-    android:backgroundTint="#EADADA"
-    tools:context=".SeconActivity">
+    android:background="#B3B1B1"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp">
 
     <EditText
-        android:id="@+id/editTextTextMultiLine2"
-        android:layout_width="344dp"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:ems="10"
-        android:gravity="start|top"
-        android:inputType="textMultiLine" />
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:hint="To" />
 
     <EditText
-        android:id="@+id/editTextTextMultiLine"
-        android:layout_width="344dp"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:ems="10"
-        android:gravity="start|top"
-        android:inputType="textMultiLine" />
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:paddingTop="50dp"
+        android:hint="Subject" />
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:paddingTop="97dp"
+        android:hint="Message" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="112dp"
+
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="270dp"
+        android:layout_marginBottom="19dp"
+        android:backgroundTint="#000000"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:text="send" />
+
 </RelativeLayout>
