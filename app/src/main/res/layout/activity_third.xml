@@ -36,7 +36,7 @@
       android:layout_weight="1"
       android:gravity="top"
       android:hint="Message"
-      app:layout_constraintBottom_toTopOf="@+id/button"
+      app:layout_constraintBottom_toTopOf="@+id/doneButton"
       app:layout_constraintEnd_toEndOf="parent"
       app:layout_constraintHorizontal_bias="0.5"
       app:layout_constraintStart_toStartOf="parent"
@@ -44,7 +44,7 @@
       app:layout_constraintVertical_bias="0.0" />
 
   <Button
-      android:id="@+id/button"
+      android:id="@+id/doneButton"
       android:layout_width="100dp"
       android:layout_height="wrap_content"
       android:layout_gravity="right"
