@@ -14,6 +14,6 @@
     <item android:title="copy"
         android:id="@+id/copy"
         android:orderInCategory="100"
-        app:showAsAction="ifRoom"
+        app:showAsAction="never"
         android:icon="@drawable/copy_icon"/>
 </menu>
