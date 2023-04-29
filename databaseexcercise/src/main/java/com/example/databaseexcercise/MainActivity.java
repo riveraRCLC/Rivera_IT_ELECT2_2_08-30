@@ -2,6 +2,7 @@ package com.example.databaseexcercise;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.annotation.SuppressLint;
 import android.content.SharedPreferences;
 import android.database.Cursor;
 import android.os.Bundle;
@@ -79,7 +80,7 @@ public class MainActivity extends AppCompatActivity {
         Log.d("MainActivity",String.valueOf(isStudent));
     }
 
-
+    @SuppressLint("Range")
     private void getData(){
         Cursor cursor = dbHelper.getData();
 
